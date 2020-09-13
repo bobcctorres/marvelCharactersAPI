@@ -1,0 +1,270 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .container {
+    max-width: 1440px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.container {
+  max-width: 1440px;
+}
+
+
+
+.base-header {
+  width:100%;
+  height: 95px;
+  background-color: #ed1d24;
+}
+
+.home-v51360pxagendatime-picker-copy {
+
+  background-color: #f4f8fb;
+}
+
+.Rectangle-2-Copy {
+
+  border-radius: 8px;
+  box-shadow: 0 2px 6px 0 rgba(69, 91, 99, 0.08);
+  background-color: #ffffff;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 32px;
+}
+
+.base-search {
+  width: 100%;
+  height: 95px;
+  margin-left: 39px;
+}
+
+.base-cards {
+  width: 100%;
+  margin-left: 39px;
+}
+
+.base-bottom1 {
+  width: 100%;
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+
+
+.Ttulo-do-card {
+  height: 92px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.61;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ed1d24;
+  margin-right: 15px;
+  margin-left: 30px;
+}
+
+label {
+  height: 19px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+
+.bg-text-field {
+  width: 385px;
+  height: 51px;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.filter {
+  height: 24px;
+  object-fit: contain;
+}
+
+.Rectangle-6-Copy-2 {
+  width: 290px;
+  height: 220px;
+  border-radius: 8px;
+  border: solid 1px #d8dde6;
+  background-color: #ffffff;
+}
+
+.Oval-2-Copy-6 {
+  width: 56px;
+  height: 56.1px;
+  align-self: center;
+}
+
+.Rect-2-Copy-6 {
+  
+  margin-top: 10px;
+}
+
+.Nome-do-paciente {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  align-self: center;
+  color: #4a4a4a;
+}
+
+
+.Atualizaes {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ed1d24;
+}
+
+.Line {
+  width: 54px;
+  height: 3px;
+  border: solid 1px #d8dde6;
+  margin-left: 120px;
+}
+
+.Descrio-do-Persona {
+  width: 248px;
+  height: 44px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 22px;
+  margin-left: 16px;
+}
+
+.bg-text-field {
+  width: 40px;
+  height: 26px;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.de-35 {
+  width: 56px;
+  height: 18px;
+  font-family: AmilTypeface;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #c2cbd2;
+}
+
+.linha {
+  width: 40px;
+  height: 16px;
+  border-radius: 3px;
+  background-color: #9b9b9b;
+}
+
+.linha1 {
+  width: 385px;
+  height: 51px;
+  border-radius: 3px;
+  background-color: #9b9b9b;
+}
+
+.BTN_LEFT {
+  width: 22px;
+  height: 40px;
+  border-radius: 3px;
+  border: solid 1px #c2cbd2;
+  background-color: #ffffff;
+}
+
+.BTN_RIGHT {
+  width: 22px;
+  height: 40px;
+  border-radius: 3px;
+  border: solid 1px #c2cbd2;
+  background-color: #ffffff;
+}
+
+.Arrow_left {
+  width: 12px;
+  height: 6px;
+  object-fit: contain;
+  transform: rotate(-270deg);
+  background-color: #5c5c5c;
+}
+
+.Arrow_right {
+  width: 12px;
+  height: 6px;
+  object-fit: contain;
+  transform: rotate(-90deg);
+  background-color: #5c5c5c;
+}
+
+.Rectangle-2 {
+  width: 1440px;
+  height: 122px;
+  background-color: #edeef0;
+  margin-top: 120px;
+}
+
+.Line-2 {
+  margin-top: 25px;
+  width: 100%;
+  height: 3px;
+  border: solid 7px #ed1d24;
+}
+
+.Lorem-ipsum-dolor-si {
+  width: 667px;
+  height: 38px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}

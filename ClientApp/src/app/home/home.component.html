@@ -1,0 +1,96 @@
+
+  <div class="row">
+    <div class="row base-header">
+      <img src="/assets/img/logo.png">
+    </div>
+
+    <div class="row home-v51360pxagendatime-picker-copy border-dark">
+
+      <div class="row Rectangle-2-Copy">
+
+        <div class="row Ttulo-do-card">
+          Character
+        </div>
+
+
+        <div class="row base-search">
+          <div class="col col-lg-4">
+
+            <div class="row">
+              <div class="row bg-text-field">
+                <input type="text" placeholder="Character" />
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col col-lg-4">
+            <div class="row">
+              <div class="col col-lg-1"><img src="/assets/img/filter.png" class="filter"></div>
+              <div class="col col-lg-2 label">A-Z</div>
+              <div class="col col-lg-1"><img src="/assets/img/arrow-down-copy-7.png" /></div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <p *ngIf="!forecasts"><em>Loading...</em></p>
+
+
+        <div class="row base-cards" *ngIf="forecasts">
+          <div class="row" *ngFor="let forecast of forecasts">
+
+            <div class="col col-lg-3">
+              <div class="Rectangle-6-Copy-2">
+                <div class="row Rect-2-Copy-6 d-flex justify-content-center"><img width="52" height="52" src="{{ forecast.thumbnail.path +'.' + forecast.thumbnail.extension  }}"/></div>
+                <div class="row Nome-do-paciente d-flex justify-content-center">{{  forecast.name.lastIndexOf("(") > 0 ? forecast.name.substring(0, forecast.name.lastIndexOf("(")) : forecast.name }}</div>
+                <div class="row Atualizaes d-flex justify-content-center">{{ forecast.name.substring(forecast.name.lastIndexOf("(") + 1, forecast.name.lastIndexOf(")")) }}</div>
+                <div class="row Line d-flex justify-content-center"></div>
+                <div class="row Descrio-do-Persona d-flex justify-content-center">{{ forecast.description }}</div>
+              </div>
+            </div>
+
+            
+
+          </div>
+        </div>
+
+        <div class="row base-bottom1 d-flex justify-content-center" *ngIf="currPage">
+
+          <div class="col col-lg-5">
+            <div class="row">
+
+              <div class="col col-lg-1 BTN_LEFT" (click)="previous()">
+                <img src="/assets/img/arrow-left.png" srcset="/assets/img/arrow-left@2x.png 2x, /assets/img/arrow-left@3x.png 3x">
+              </div>
+              <div class="col col-lg-1">
+                <label class="bg-text-field" >
+                  {{ currPage  }}
+                </label>
+              </div>
+              <div class="col col-lg-2">
+                <label class="de-35">de {{ (totalOffset / 12).toFixed(0) }} </label>
+              </div>
+
+              <div class="col col-lg-1 BTN_RIGHT" (click)="next()">
+                <img src="/assets/img/arrow-right.png" srcset="/assets/img/arrow-right@2x.png 2x, /assets/img/arrow-right@3x.png 3x">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+          <div class="Line-2"></div>
+
+          <div class="Rectangle-2">
+            <div class="d-flex justify-content-center">
+              <div class="row">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+          </div>
+
+        </div>
+  </div>

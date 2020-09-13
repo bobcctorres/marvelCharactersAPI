@@ -1,0 +1,30 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:57299",
+      "sslPort": 44373
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "MARVEL_PUBLIC_KEY": "deac682b60ab6a47c0f294b8895c6d84",
+        "MARVEL_API_KEY": "deac682b60ab6a47c0f294b8895c6d84",
+        "MARVEL_PRIVATE_KEY": "52feaf7646de6b906c09b71dbc70eab6c3d2baad",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "MarvelAngularApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
